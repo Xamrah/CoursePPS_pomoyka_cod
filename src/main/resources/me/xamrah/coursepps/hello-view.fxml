@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pannable="true" prefHeight="1059.0" prefWidth="839.0" scaleShape="false" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.xamrah.coursepps.HelloController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="974.0" prefWidth="897.0">
+         <children>
+            <ImageView fx:id="scream" fitHeight="462.0" fitWidth="907.0" layoutX="-8.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@scream.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="107.0" layoutY="14.0" text="РЕГИСТРАЦИЯ">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="41.0" />
+               </font>
+            </Label>
+            <Label layoutX="673.0" layoutY="262.0" text="ВАШЕ ИМЯ:">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="10.0" />
+               </font>
+            </Label>
+            <Slider fx:id="sliderDate" blockIncrement="1.0" layoutX="299.0" layoutY="270.0" max="1.90640118E12" prefHeight="14.0" prefWidth="316.0" />
+            <Label layoutX="181.0" layoutY="270.0" prefHeight="14.0" prefWidth="136.0" text="ДАТА РОЖДЕНИЯ:">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="dateText" layoutX="306.0" layoutY="284.0" prefHeight="14.0" prefWidth="304.0" textAlignment="CENTER">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="74.0" layoutY="158.0" prefHeight="14.0" prefWidth="45.0" text="ПОЛ:">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="10.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="sex" layoutX="124.0" layoutY="153.0" prefHeight="25.0" prefWidth="311.0" promptText="Ваш пол" />
+            <PasswordField fx:id="name" layoutX="755.0" layoutY="257.0" prefHeight="25.0" prefWidth="312.0" promptText="Ваше имя" />
+            <Label layoutX="136.0" layoutY="7.0" prefHeight="14.0" prefWidth="208.0" text="АДРЕС ЭЛЕКТРОННОЙ ПОЧТЫ:">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="10.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="email1" layoutX="485.0" layoutY="1.0" promptText="Ваша почта" />
+            <Label layoutX="318.0" layoutY="910.0" prefHeight="14.0" prefWidth="233.0" text="ПОВТОРИТЕ АДРЕС ПОЧТЫ:">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="10.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="email2" layoutX="578.0" layoutY="904.0" promptText="Ваша почта" />
+            <Label layoutX="341.0" layoutY="358.0" prefHeight="14.0" prefWidth="248.0" text="ПОВТОРИТЕ АДРЕС ПОЧТИ ЕЩЁ РАЗ:">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="10.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="email3" layoutX="690.0" layoutY="352.0" promptText="Ваша почта" />
+            <Label layoutX="304.0" layoutY="114.0" prefHeight="14.0" prefWidth="275.0" text="ПОВТОРИТЕ АДРЕС ПОЧТЫ ЕЩЁ ЕЩЁ РАЗ:">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="10.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="email4" layoutX="653.0" layoutY="108.0" promptText="Ваша почта" />
+            <Label layoutX="9.0" layoutY="79.0" prefHeight="14.0" prefWidth="312.0" text="ПОВТОРИТЕ АДРЕС ПОЧТЫ В ПОСЛЕДНИЙ РАЗ:">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="10.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="email5" layoutX="358.0" layoutY="73.0" promptText="Ваша почта" />
+            <Label fx:id="phoneText" layoutX="635.0" layoutY="574.0" prefHeight="14.0" prefWidth="210.0" text="+7">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="361.0" layoutY="479.0" prefHeight="14.0" prefWidth="206.0" text="ВВЕДИТЕ НОМЕР ТЕЛЕФОНА: +7">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="10.0" />
+               </font>
+            </Label>
+            <Slider fx:id="phone1" layoutX="679.0" layoutY="423.0" max="9.0" min="1.0" orientation="VERTICAL" />
+            <Slider fx:id="phone2" layoutX="704.0" layoutY="423.0" max="9.0" min="1.0" orientation="VERTICAL" />
+            <Slider fx:id="phone3" layoutX="605.0" layoutY="423.0" max="9.0" min="1.0" orientation="VERTICAL" />
+            <Slider fx:id="phone4" layoutX="728.0" layoutY="423.0" max="9.0" min="1.0" orientation="VERTICAL" />
+            <Slider fx:id="phone5" layoutX="655.0" layoutY="423.0" max="9.0" min="1.0" orientation="VERTICAL" />
+            <Slider fx:id="phone6" layoutX="799.0" layoutY="423.0" max="9.0" min="1.0" orientation="VERTICAL" />
+            <Slider fx:id="phone7" layoutX="752.0" layoutY="423.0" max="9.0" min="1.0" orientation="VERTICAL" />
+            <Slider fx:id="phone8" layoutX="630.0" layoutY="423.0" max="9.0" min="1.0" orientation="VERTICAL" />
+            <Slider fx:id="phone9" layoutX="579.0" layoutY="423.0" max="9.0" min="1.0" orientation="VERTICAL" />
+            <Slider fx:id="phone10" layoutX="778.0" layoutY="423.0" max="9.0" min="1.0" orientation="VERTICAL" />
+            <Label layoutX="541.0" layoutY="574.0" prefHeight="14.0" prefWidth="92.0" text="ВАШ НОМЕР:">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="10.0" />
+               </font>
+            </Label>
+            <Button fx:id="button1" layoutX="-64.0" layoutY="834.0" mnemonicParsing="false" onAction="#complete" text="ОТПРАВИТЬ" />
+            <Label layoutX="13.0" layoutY="611.0" prefHeight="14.0" prefWidth="208.0" text="ВВЕДИТЕ ПАРОЛЬ:">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="10.0" />
+               </font>
+            </Label>
+            <Button fx:id="checkPass" layoutX="175.0" layoutY="603.0" mnemonicParsing="false" onAction="#checkPassoword" text="ПРОВЕРИТЬ" />
+            <TextField fx:id="passField" layoutX="136.0" layoutY="605.0" prefHeight="26.0" prefWidth="33.0" promptText="пароль" />
+            <Button fx:id="button11" layoutX="673.0" layoutY="804.0" mnemonicParsing="false" onAction="#fakeComplete" text="ОТПРАВИТЬ" />
+            <Button fx:id="button12" layoutX="479.0" layoutY="864.0" mnemonicParsing="false" onAction="#fakeComplete" text="ОТПРАВИТЬ" />
+            <Button fx:id="button13" layoutX="468.0" layoutY="207.0" mnemonicParsing="false" onAction="#fakeComplete" text="ОТПРАВИТЬ" />
+            <Button fx:id="button14" layoutX="125.0" layoutY="921.0" mnemonicParsing="false" onAction="#fakeComplete" text="ОТПРАВИТЬ" />
+            <Button fx:id="button15" layoutX="689.0" layoutY="930.0" mnemonicParsing="false" onAction="#fakeComplete" text="ОТПРАВИТЬ" />
+            <Button fx:id="button16" layoutX="665.0" layoutY="308.0" mnemonicParsing="false" onAction="#fakeComplete" text="ОТПРАВИТЬ" />
+            <Button fx:id="loginButton" layoutX="125.0" layoutY="222.0" mnemonicParsing="false" onAction="#login" text="Я уже Смешарик" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
